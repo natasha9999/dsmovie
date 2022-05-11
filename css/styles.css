@@ -88,7 +88,7 @@ nav {
     text-align: center;
 }
 
-.botao-avaliar, .botao-avaliar:hover {
+.botao-avaliar, .botao-avaliar:hover, .botao-dsmovie, .botao-dsmovie:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -106,4 +106,44 @@ nav {
 .form-container {
     padding: 40px 0;
     max-width: 480px;
+}
+
+.dsmovie-form-description {
+    background-color: var(--color-white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.form-titulo-filme {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form {
+    width: 100%;
+}
+
+.dsmovie-form-group {
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group label {
+    font-size: 12px;
+    color: var(--text-gray);
+}
+
+.dsmovie-form-group input, .dsmovie-form-group select {
+    border-color: rgb(177, 175, 175);
+}
+
+.form-btn-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }

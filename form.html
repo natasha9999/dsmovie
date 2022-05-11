@@ -37,9 +37,28 @@
                         <img class="poster-dsmovie"
                             src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/dpzC0ACzwkVporKvzZGvNFOBFr6.jpg"
                             alt="Grey's Anatomy">
-                        <div class="dsmovie-card-description">
-                            <h3 class="titulo-filme">Grey's Anatomy</h3>
-                            <a class="botao-avaliar" href="index.html">Cancelar</a>
+                        <div class="dsmovie-form-description">
+                            <h3 class="form-titulo-filme">Grey's Anatomy</h3>
+                            <form class="dsmovie-form">
+                                <div class="form-group dsmovie-form-group">
+                                    <label for="email">Informe o seu e-mail</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group dsmovie-form-group">
+                                    <label for="score">Informe a sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-btn-container">
+                                    <button class="botao-dsmovie" type="submit">Salvar</button>
+                                    <a class="botao-dsmovie" href="index.html">Cancelar</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -102,3 +102,8 @@ nav {
     justify-content: center;
     border-radius: 4px;
 }
+
+.form-container {
+    padding: 40px 0;
+    max-width: 480px;
+}

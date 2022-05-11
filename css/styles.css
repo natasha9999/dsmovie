@@ -6,6 +6,7 @@
     --color-primary: #4D41C0;
     --color-white: #ffffff;
     --text-gray: #4a4a4a;
+    --text-yellow: #FFBB3A
 }
 
 * {
@@ -65,14 +66,37 @@ nav {
 }
 
 .dsmovie-card-description {
+    height: 220px;
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px 20px 20px 20px;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
     justify-content: space-between;
+}
+
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nota {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-yellow);
+}
+
+.img-star {
+    width: 22px;
+}
+
+.numero-avaliacoes {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-gray);
+    margin-bottom: 10px;
 }
 
 .poster-dsmovie {
@@ -147,3 +171,4 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
